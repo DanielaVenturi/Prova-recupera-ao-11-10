@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<script>
+    // SWITCH CASE SWITCH CASE SWITCH CASE SWITCH CASE
+    /*
+    Problema: Peça para o usuário informar qual a sua cidade de nascimento, que poderá ser Joinville (JL), São Francisco do Sul (SF), Araquari (AR) ou Balneário Barra do Sul (BS).
+    De acordo com a resposta fornecida pelo usuário, apresente a mensagem correspondente, conforme estabelecido abaixo:
+    Caso seja Joinville (JL), o programa mostrará a mensagem: "Urbano".
+    Caso seja São Francisco do Sul (SF), o programa mostrará a mensagem "Praia".
+    Caso seja Araquari (AR), o programa mostrará a mensagem "Metrópole".
+    Caso seja Balneário Barra do Sul (BS), o programa mostrará a mensagem "Praia".
+    */
+
+    //Entrada
+const cidade = prompt(`informe  qual a sua cidade de nascimento, que poderá ser Joinville (JL), São Francisco do Sul (SF), Araquari (AR) ou Balneário Barra do Sul (BS) `).toUpperCase()
+
+switch (cidade) {
+    case `JL`:
+        document.write(`Urbano`);
+        break;
+case `SF`:
+document.write(`Praia`);
+    break;
+    case `AR`:
+document.write(`Metrópole`);
+    break;
+    case `BS`:
+document.write(`Praia`);
+    break;
+    default:
+    document.write(`Valor invalido`);
+        
+        break;
+}
+    //Processamento
+
+
+    //Saída
+
+</script>
